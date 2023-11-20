@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>nested if</h1>
+    <h1>{% if p > q %}
+          {% if p > r %}
+           {{p}}
+          {% else %}
+           {{r}}
+          {% endif %}
+        {% else %}
+         {%if q > r %}
+           {{q}}
+          {% else %}
+            {{r}} 
+           {% endif %}
+        {% endif %}
+        </h1>
+    </center>
+</body>
+</html>
